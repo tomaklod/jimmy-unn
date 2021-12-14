@@ -132,6 +132,10 @@ footer {
     max-width: 230px;
 }
 
+.txt_section_2 {
+    margin-bottom:0px;
+}
+
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
@@ -166,3 +170,5 @@ and (max-device-width : 480px) {
         max-height: 158px;
     }
 }
+
+
