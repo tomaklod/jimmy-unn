@@ -167,6 +167,10 @@ and (max-device-width : 480px) {
         min-height: 158px;
         max-height: 158px;
     }
+
+    .m-hidden {
+        display:none;
+    }
 }
 
 
