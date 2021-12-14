@@ -63,6 +63,9 @@ figure, img {
     height:240px;
     overflow:hidden;
     border-radius:50px;
+    min-height: 298px;
+    max-height: 300px;
+    object-fit: fill;
 }
 
 
@@ -112,10 +115,45 @@ footer {
     text-align: center;
 }
 
+
+
 .header_2 {
     position: absolute;
+    width: 100%;
     top: 10px;
 }
 .footer_2 {
     position: absolute;
+    width: 100%;
+}
+
+
+.btn_about a {
+    max-width: 230px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .section_2 {
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0px;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn_about {
+        padding:15px;
+    }
+
+    .btn_about a {
+        margin-bottom:10px;   
+        max-width: none;
+    }
 }
