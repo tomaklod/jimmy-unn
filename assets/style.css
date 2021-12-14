@@ -156,4 +156,13 @@ and (max-device-width : 480px) {
         margin-bottom:10px;   
         max-width: none;
     }
+
+
+    .img_data {
+        height:240px;
+        overflow:hidden;
+        border-radius:50px;
+        min-height: 158px;
+        max-height: 158px;
+    }
 }
