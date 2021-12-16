@@ -161,6 +161,11 @@ and (max-device-width : 480px) {
         padding: 10px !important;
     }
 
+    .footer_2 {
+        padding: 0px !important;
+    }
+    
+
     .section_2 {
         position: absolute;
         bottom: 0;
@@ -207,6 +212,11 @@ and (max-device-width : 480px) {
 @media only screen 
 and (min-device-width : 600px) 
 and (max-device-width : 768px) {
+
+
+    .footer-2 {
+        padding: 0 !important;
+    }
 
     .img_data {
         height:240px;
