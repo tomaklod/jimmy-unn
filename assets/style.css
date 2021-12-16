@@ -125,10 +125,12 @@ footer {
 
 .header_2 {
     position: absolute;
+    z-index: -3;
     width: 100%;
     top: 10px;
 }
 .footer_2 {
+    z-index: -3;
     position: absolute;
     width: 100%;
 }
