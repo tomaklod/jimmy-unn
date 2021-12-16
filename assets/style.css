@@ -62,9 +62,9 @@ figure, img {
 .img_data {
     height:240px;
     overflow:hidden;
-    border-radius:50px;
-    min-height: 298px;
-    max-height: 300px;
+    border-radius:26px;
+    min-height: 300px;
+    max-height: 380px;
     object-fit: fill;
 }
 
@@ -127,7 +127,7 @@ footer {
 
 
 .btn_about a {
-    max-width: 230px;
+    max-width: 320px;
 }
 
 .txt_section_2 {
@@ -137,6 +137,7 @@ footer {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
+
     .section_2 {
         position: absolute;
         bottom: 0;
@@ -164,8 +165,8 @@ and (max-device-width : 480px) {
         height:240px;
         overflow:hidden;
         border-radius:50px;
-        min-height: 158px;
-        max-height: 158px;
+        min-height: 178px;
+        max-height: 178px;
     }
 
     .m-hidden {
@@ -173,4 +174,34 @@ and (max-device-width : 480px) {
     }
 }
 
+/*
+    TABLETTE
+*/
 
+
+
+@media only screen 
+and (min-device-width : 600px) 
+and (max-device-width : 768px) {
+
+    .img_data {
+        height:240px;
+        overflow:hidden;
+        border-radius:50px;
+        min-height: 158px;
+        max-height: 208px;
+    }
+}
+
+
+@media only screen 
+and (min-device-width : 600px) 
+and (max-device-width : 1024px) {
+    .img_data {
+        height:240px;
+        overflow:hidden;
+        border-radius:50px;
+        min-height: 208px;
+        max-height: 208px;
+    }
+}
