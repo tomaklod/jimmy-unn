@@ -100,6 +100,7 @@ footer {
 
 .txt_bold {
     font-weight: 700;
+    margin-bottom:0px;
 }
 
 .section_2 {
@@ -128,6 +129,7 @@ footer {
 
 .btn_about a {
     max-width: 320px;
+    font-weight:700;
 }
 
 .txt_section_2 {
@@ -201,7 +203,30 @@ and (max-device-width : 1024px) {
         height:240px;
         overflow:hidden;
         border-radius:50px;
-        min-height: 208px;
-        max-height: 208px;
+        min-height: 188px;
+        max-height: 188px;
+    }
+
+    .t-btn {
+        margin-bottom: 10px;
     }
 }
+
+@media only screen and (min-width : 1024px) {
+
+    .img_data {
+        height:240px;
+        overflow:hidden;
+        border-radius:50px;
+        min-height: 290px;
+        max-height: 208px;
+    }
+
+    /* Styles */
+    }
+    
+    /* Large screens ----------- */
+    @media only screen and (min-width : 1824px) {
+    /* Styles */
+    }
+    
