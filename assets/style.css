@@ -177,6 +177,7 @@ and (max-device-width : 480px) {
 
 
     .img_data {
+        margin-top:20px;
         height:240px;
         overflow:hidden;
         border-radius:50px;
