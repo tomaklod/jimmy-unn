@@ -3,10 +3,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.content {
-    border-radius:26px;
-}
-
 .decor {
     position:absolute;
     top: 0;
@@ -64,12 +60,11 @@ figure, img {
 }
 
 .img_data {
-    height:240px;
-    overflow:hidden;
     border-radius:26px;
-    min-height: 762px;
-    max-height: 762px;
-    object-fit: fill;
+}
+
+.content-img {
+    border-radius:26px;
 }
 
 
@@ -197,8 +192,9 @@ and (max-device-width : 480px) {
         margin-top:20px;
         height:240px;
         overflow:hidden;
-        min-height: 406px;
-        max-height: 406px;
+        border-radius:50px;
+        min-height: 178px;
+        max-height: 178px;
     }
 
     .m-hidden {
@@ -225,8 +221,8 @@ and (max-device-width : 768px) {
         height:240px;
         overflow:hidden;
         border-radius:50px;
-        min-height: 456px;
-        max-height: 456px;
+        min-height: 158px;
+        max-height: 208px;
     }
 }
 
@@ -238,8 +234,8 @@ and (max-device-width : 1024px) {
         height:240px;
         overflow:hidden;
         border-radius:50px;
-        min-height: 762px;
-        max-height: 762px;
+        min-height: 188px;
+        max-height: 188px;
     }
 
     .t-btn {
@@ -250,11 +246,7 @@ and (max-device-width : 1024px) {
 @media only screen and (min-width : 1024px) {
 
     .img_data {
-        height:240px;
-        overflow:hidden;
-        border-radius:50px;
-        min-height: 762px;
-        max-height: 762px;
+        border-radius:25px;
     }
 
     /* Styles */
@@ -262,6 +254,11 @@ and (max-device-width : 1024px) {
     
     /* Large screens ----------- */
     @media only screen and (min-width : 1824px) {
-    /* Styles */
+        
+    .img_data {
+        height:721px;
+        border-radius:26px;
+        object-fit: scale-down;
     }
-    
+
+}
