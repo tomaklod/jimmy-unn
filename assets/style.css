@@ -166,7 +166,13 @@ and (max-device-width : 480px) {
         padding: 0px !important;
     }
     
+    .content-img {
+        padding:0px !important;
+    }
 
+    .col-center {
+        padding:0px;
+    }
     .section_2 {
         position: absolute;
         bottom: 0;
