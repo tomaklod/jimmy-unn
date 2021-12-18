@@ -65,8 +65,10 @@ figure, img {
 
 .content-img {
     border-radius:26px;
+    max-width: 590px;
 }
 
+.col-center {text-align: center;}
 
 .img_data_2 {
     height:400px;
