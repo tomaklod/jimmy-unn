@@ -63,8 +63,8 @@ figure, img {
     height:240px;
     overflow:hidden;
     border-radius:26px;
-    min-height: 300px;
-    max-height: 380px;
+    min-height: 762px;
+    max-height: 762px;
     object-fit: fill;
 }
 
@@ -235,8 +235,8 @@ and (max-device-width : 1024px) {
         height:240px;
         overflow:hidden;
         border-radius:50px;
-        min-height: 188px;
-        max-height: 188px;
+        min-height: 762px;
+        max-height: 762px;
     }
 
     .t-btn {
@@ -250,8 +250,8 @@ and (max-device-width : 1024px) {
         height:240px;
         overflow:hidden;
         border-radius:50px;
-        min-height: 290px;
-        max-height: 208px;
+        min-height: 762px;
+        max-height: 762px;
     }
 
     /* Styles */
