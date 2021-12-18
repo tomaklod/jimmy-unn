@@ -194,8 +194,8 @@ and (max-device-width : 480px) {
         height:240px;
         overflow:hidden;
         border-radius:50px;
-        min-height: 446px;
-        max-height: 446px;
+        min-height: 406px;
+        max-height: 406px;
     }
 
     .m-hidden {
