@@ -59,6 +59,9 @@ figure, img {
     width:100%;
 }
 
+figure {
+    margin-bottom: 0px !important;
+}
 .img_data {
     border-radius:26px;
 }
@@ -67,6 +70,7 @@ figure, img {
     border-radius:26px;
     max-width: 420px;
 }
+
 
 .col-center {text-align: center;}
 
