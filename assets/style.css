@@ -65,7 +65,7 @@ figure, img {
 
 .content-img {
     border-radius:26px;
-    max-width: 590px;
+    max-width: 400px;
 }
 
 .col-center {text-align: center;}
@@ -255,6 +255,7 @@ and (max-device-width : 1024px) {
 
     .img_data {
         border-radius:25px;
+        height:400px !important;
     }
 
     /* Styles */
