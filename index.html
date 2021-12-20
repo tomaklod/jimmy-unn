@@ -27,8 +27,11 @@
     
     <!-- Custom styles for this template -->
     <link href="assets/style.css" rel="stylesheet">
+    <link href="assets/splide/splide.min.css" rel="stylesheet" media="all">
+    <link href="assets/splide/style.css" rel="stylesheet" media="all">
     <link href="assets/hover.css" rel="stylesheet" media="all">
     <link href="assets/js/fullpage.min.css" rel="stylesheet">
+
   </head>
 
   <body class="d-flex flex-column">
@@ -91,7 +94,20 @@
                 </div>
             </header>
           
-          <main class="px-4">
+          <main class="">
+
+            
+<div id="splide" class="splide">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide"><img class="content-img" src="assets/img_1.jpg"></li>
+      <li class="splide__slide"><img class="content-img"src="assets/img_1.jpg"></li>
+      <li class="splide__slide"><img class="content-img"src="assets/img_1.jpg"></li>
+      <li class="splide__slide"><img class="content-img" src="assets/img_1.jpg"></li>
+    </ul>
+  </div>
+</div>
+            <!-- 
             <div class="row h-100 row-cols-1 row-cols-md-3 align-items-center">
               <div class="col my-auto col-center m-hidden">
                     <img class="content-img" src="assets/img_1.jpg" alt="">
@@ -107,6 +123,7 @@
                 </div>
               </div>
             </div>
+             -->
           </main>
         
           <footer class="footer-1 fixed-bottom mt-auto px-4">
@@ -174,7 +191,9 @@
             <!-- FIN DU HEADER-->
 
             <main class="container-fluid section_2">
-                <div class="row w-100 vh-80 row-cols-1 row-cols-md-3 align-items-end">
+             
+              
+              <!----> <div class="row w-100 vh-80 row-cols-1 row-cols-md-3 align-items-end">
                     <div class="col txt_section_2">
                         <p class="txt_section_2">Shhh... Don't tell anyone... ;-)</p>
                         <p class="txt_bold">This website is #underconstruction</p>
@@ -195,6 +214,8 @@
                 </div>
                   </div>
                 </div>
+
+              -->
               </main>
 
 
@@ -212,8 +233,13 @@
   </body>
 
 <script type="text/javascript" src="assets/js/fullpage.js"></script>
+
+
 <script>
-    new fullpage('#fullpage', {
+  new fullpage('#fullpage', {
 });
 </script>
+
+<script src='https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js'></script><script  src="/assets/js/script.js"></script>
+
 </html>
