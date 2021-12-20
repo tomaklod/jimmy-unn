@@ -59,9 +59,6 @@ figure, img {
     width:100%;
 }
 
-figure {
-    margin-bottom: 0px !important;
-}
 .img_data {
     border-radius:26px;
 }
@@ -115,6 +112,7 @@ footer {
     margin-bottom:0px;
 }
 
+
 .section_2 {
     position: absolute;
     bottom: 0;
@@ -125,7 +123,6 @@ footer {
     flex-direction: column;
     text-align: center;
 }
-
 
 
 .header_2 {
@@ -207,6 +204,11 @@ and (max-device-width : 480px) {
         border-radius:50px;
         min-height: 178px;
         max-height: 178px;
+    }
+
+
+    figure {
+    margin-bottom: 0px !important;
     }
 
     .m-hidden {
