@@ -266,16 +266,24 @@ and (max-device-width : 1024px) {
         height:400px !important;
     }
 
+    .content-img {
+        max-width: 450px !important;
+    }
+
     /* Styles */
     }
     
     /* Large screens ----------- */
-    @media only screen and (min-width : 1824px) {
+    @media only screen and (min-width : 1440px) {
         
     .img_data {
         height:721px;
         border-radius:26px;
         object-fit: scale-down;
+    }
+
+    .content-img {
+        max-width: 100% !important;
     }
 
 }
@@ -284,7 +292,9 @@ and (max-device-width : 1024px) {
     padding: 20px 0;
   }
   
-  // Generic Slide
+  .splide__arrows {
+      display:none !important
+  }
   .splide__slide {
     img {
       display: block;
@@ -296,14 +306,12 @@ and (max-device-width : 1024px) {
     }
   }
   
-  // Active Slide
   .splide__slide.is-active {
     img {
       transform: scale(1);
     }
   }
   
-  // Arrow Tweaks for Accessibility
   .splide .splide__arrow {
     top: 0;
     bottom: 0;

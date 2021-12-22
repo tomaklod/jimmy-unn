@@ -4,22 +4,29 @@ document.addEventListener( 'DOMContentLoaded', function () {
       perPage: 3,
       focus: 'center',
       autoplay: true,
-      interval: 6000,
-      flickMaxPages: 3,
-      updateOnMove: true,
+      interval: 4000,
       pagination: false,
-      padding: '10%',
-      gap: "1em",
-      throttle: 300,
+      updateOnMove: true,
+      gap        : '1rem',
+      padding: '1rem',
       breakpoints: {
         1440: {
-          perPage: 1,
+          perPage: 3,
+          gap: "1em",
         },
-        1200: {
-          perPage: 1,
+        1280: {
+          perPage: 3,
+          gap: "1em",
         },
         1024: {
+          perPage: 2,
+          gap: "1em",
+          autoheight:true,
+        },
+
+        414: {
           perPage: 1,
+          autoheight:true,
         }
       }
     }).mount();
