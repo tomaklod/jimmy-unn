@@ -7,9 +7,14 @@ document.addEventListener( 'DOMContentLoaded', function () {
       interval: 4000,
       pagination: false,
       updateOnMove: true,
-      gap        : '1rem',
+      gap: '1rem',
       padding: '1rem',
       breakpoints: {
+        2560: {
+          perPage: 3,
+          gap: "1em",
+          autoheight:true,
+        },
         1440: {
           perPage: 3,
           gap: "1em",
@@ -23,7 +28,6 @@ document.addEventListener( 'DOMContentLoaded', function () {
           gap: "1em",
           autoheight:true,
         },
-
         414: {
           perPage: 1,
           autoheight:true,
