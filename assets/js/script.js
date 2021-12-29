@@ -11,7 +11,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
       padding: '1rem',
       breakpoints: {
         2560: {
-          perPage: 3,
+          perPage: 4,
           gap: "1em",
           autoheight:true,
         },
