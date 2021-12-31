@@ -154,10 +154,7 @@ footer {
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 
-    .mb-m {
-        margin-bottom: 100px;
-    }
-    
+
     .header-1 {
         padding: 10px !important;
     } 
