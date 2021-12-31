@@ -1,10 +1,12 @@
 document.addEventListener( 'DOMContentLoaded', function () {
     new Splide('#splide', {
       type: 'loop',
-      perPage: 6,
-      focus: 'center',
+      perPage: 4,
       autoplay: true,
-      interval: 4000,
+      interval: 1500,
+      cloneStatus: false,
+      focus: 'center',
+      clones:0,
       pagination: false,
       updateOnMove: true,
       gap: '1rem',
@@ -18,21 +20,27 @@ document.addEventListener( 'DOMContentLoaded', function () {
         1440: {
           perPage: 3,
           gap: "1em",
+
         },
         1280: {
           perPage: 3,
           gap: "1em",
+
+          clones:0,
         },
         1024: {
           perPage: 2,
           gap: "1em",
           autoheight:true,
+
+          clones:0,
         },
         414: {
           perPage: 1,
           autoheight:true,
         }
       }
-    }).mount();
+    })
+    .mount();
   });
   

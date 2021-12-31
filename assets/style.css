@@ -6,8 +6,9 @@ body {
 .decor {
     position:absolute;
     top: 0;
-    z-index:2;
+    z-index:-1;
     width: 100%;
+    pointer-events:none;  
     height: 100%;
 }
 
@@ -289,15 +290,15 @@ and (max-device-width : 1024px) {
     }
 }
 
-
-
 /* INFO SPLIDE A NE PAS MODIFIER */ 
 .splide {
+    transform-origin: center center;
+    pointer-events: auto; 
     padding: 20px 0;
   }
   
   .splide__arrows {
-      display:none !important
+      display:none !important;
   }
   .splide__slide {
     img {

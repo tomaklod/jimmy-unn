@@ -100,10 +100,14 @@
           <div id="splide" class="splide">
             <div class="splide__track">
               <ul class="splide__list">
-                <li class="splide__slide"><img class="content-img" src="assets/img_1.jpg"></li>
-                <li class="splide__slide"><img class="content-img"src="assets/img_1.jpg"></li>
-                <li class="splide__slide"><img class="content-img"src="assets/img_1.jpg"></li>
-                <li class="splide__slide"><img class="content-img" src="assets/img_1.jpg"></li>
+                <li class="splide__slide"><img title="zoom" id="zoom" class="content-img" src="assets/img_1.jpg"></li>
+                <li class="splide__slide"><img title="zoom" id="zoom" class="content-img" src="assets/img_1.jpg"></li>
+                <li class="splide__slide"><img title="zoom" id="zoom" class="content-img" src="assets/img_1.jpg"></li>
+                <li class="splide__slide"><img title="zoom" id="zoom" class="content-img" src="assets/img_1.jpg"></li>
+                <li class="splide__slide"><img title="zoom" id="zoom" class="content-img" src="assets/img_1.jpg"></li>
+                <li class="splide__slide"><img title="zoom" id="zoom" class="content-img" src="assets/img_1.jpg"></li>
+                <li class="splide__slide"><img title="zoom" id="zoom" class="content-img" src="assets/img_1.jpg"></li>
+                <li class="splide__slide"><img title="zoom" id="zoom" class="content-img" src="assets/img_1.jpg"></li>
               </ul>
             </div>
           </div>
@@ -214,7 +218,16 @@
 
 
 <script type="text/javascript" src="assets/js/fullpage.js"></script>
-<script>new fullpage('#fullpage', { }); </script>
-<script src='https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js'></script><script  src="/assets/js/script.js"></script>
 
+<script>new fullpage('#fullpage', { }); </script>
+
+<script src='https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js'></script>
+<script  src="/assets/js/script.js"></script>
+
+
+<script src='https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js'></script>
+<script>
+  mediumZoom(document.querySelectorAll('#zoom'))
+  </script>
+  
 </html>
