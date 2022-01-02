@@ -212,8 +212,8 @@ and (max-device-width : 480px) {
 }
 
 .medium-zoom-image--opened {
-    padding:20px !important;
-    border-radius:50px !important;
+    padding:10px !important;
+    border-radius:40px !important;
 }
 
 /*
