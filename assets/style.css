@@ -216,6 +216,12 @@ and (max-device-width : 480px) {
     border-radius:40px !important;
 }
 
+.medium-zoom--opened .medium-zoom-overlay {
+    cursor: pointer;
+    cursor: zoom-out;
+    background: rgb(0 0 0 / 95%) !important;
+}
+
 /*
     TABLETTE
 */
