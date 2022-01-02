@@ -211,15 +211,10 @@ and (max-device-width : 480px) {
     }
 }
 
-
-.medium-zoom-image {
-    cursor: pointer;
-    cursor: zoom-in;
-    transition: transform .3s cubic-bezier(.2,0,.2,1)!important;
-    padding: 30px;
-    border-radius: 50px !important;
+.medium-zoom-image--opened {
+    padding:20px !important;
+    border-radius:50px !important;
 }
-
 
 /*
     TABLETTE
